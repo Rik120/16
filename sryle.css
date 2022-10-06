@@ -1,0 +1,452 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    width: 100%;
+    height: 7vh;
+    padding: 30px 65px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+}
+
+.header_left {
+    display: flex;
+}
+
+.header_left span {
+    /* margin-left:10px; */
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.header_right p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cont {
+    padding: 0 50px;
+}
+
+.Face_box {
+    width: 100%;
+    height: 65vh;
+    background-image: url(./img/Rectangle.png);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white
+}
+
+.Face_box_one_img {
+    text-align: center;
+}
+
+.Face_box h1 {
+    font-weight: 400;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.Face_box p {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 28px;
+}
+
+.products {
+    text-align: center;
+}
+
+.products h2 {
+    font-weight: 400;
+    font-size: 45px;
+    margin-top: 80px;
+    margin-bottom: 23px;
+}
+
+.products span {
+    font-weight: 400;
+    font-size: 15px;
+    color: #A0A0A0;
+}
+
+.products p {
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 26px;
+    margin-bottom: 95px;
+}
+
+.product {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product_info_one_img {
+    width: 100%;
+    height: 650px;
+    background-image: url(./img/q.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.product_info_one_text {
+    width: 100%;
+    padding: 48px;
+    text-align: center;
+}
+
+.product_info_one_text h3 {
+    font-weight: 400;
+    font-size: 27px;
+    margin-bottom: 23px;
+}
+.product_info_one_text p {
+    font-weight: 400;
+    font-size: 13px;
+    margin-bottom: 80px;
+}
+
+.product_info_two_img {
+    width: 100%;
+    height: 650px;
+    background-image: url(./img/R.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.product_info_two_text {
+    width: 100%;
+    padding: 48px;
+    text-align: center;
+}
+
+.product_info_two_text h3 {
+    font-weight: 400;
+    font-size: 27px;
+    margin-bottom: 23px;
+}
+.product_info_two_text p {
+    font-weight: 400;
+    font-size: 13px;
+    margin-bottom: 80px;
+}
+
+.product_info_one {
+    width: 49%;
+}
+
+.product_info_two {
+    width: 49%;
+}
+
+.technic_text {
+    text-align: center;
+}
+
+.technic h4 {
+    font-weight: 400px;
+    font-size: 33px;
+}
+
+.technic p {
+    font-weight: 400px;
+    font-size: 15px;
+    color: #A0A0A0;
+    margin-top: 16px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.technic_btns {
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.technic_btn {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.technic_info_one_img {
+    width: 100%;
+    height: 650px;
+    background-image: url(./img/z.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.technic_info_one_text {
+    width: 100%;
+    padding: 23px 0;
+}
+
+.technic_info_one_text h3 {
+    font-weight: 400;
+    font-size: 13px;
+    color: #A0A0A0;
+}
+.technic_info_one_text p {
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 80px;
+    color: #A0A0A0;
+}
+
+.technic_info_one {
+    width: 24%;
+}
+
+.technic_info_two_img {
+    width: 100%;
+    height: 650px;
+    background-image: url(./img/x.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.technic_info_two_text {
+    width: 100%;
+    padding: 23px 0;
+}
+
+.technic_info_two_text h3 {
+    font-weight: 400;
+    font-size: 13px;
+    color: #A0A0A0;
+}
+.technic_info_two_text p {
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 80px;
+    color: #A0A0A0;
+}
+
+.technic_info_two {
+    width: 24%;
+}
+
+.technic_info_three_img {
+    width: 100%;
+    height: 650px;
+    background-image: url(./img/c.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.technic_info_three_text {
+    width: 100%;
+    padding: 23px 0;
+}
+
+.technic_info_three_text h3 {
+    font-weight: 400;
+    font-size: 13px;
+    color: #A0A0A0;
+}
+.technic_info_three_text p {
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 80px;
+    color: #A0A0A0;
+}
+
+.technic_info_three {
+    width: 24%;
+}
+
+.technic_info_four_img {
+    width: 100%;
+    height: 650px;
+    background-image: url(./img/v.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.technic_info_four_text {
+    width: 100%;
+    padding: 23px 0;
+}
+
+.technic_info_four_text h3 {
+    font-weight: 400;
+    font-size: 13px;
+    color: #A0A0A0;
+}
+.technic_info_four_text p {
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 80px;
+    color: #A0A0A0;
+}
+
+.technic_info_four {
+    width: 24%;
+}
+
+.tachnic_btns_icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Face_box_ {
+    width: 100%;
+    height: 65vh;
+    background-image: url(./img/b.png);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    margin-bottom: 115px;
+}
+
+.Face_box_ h1 {
+    font-weight: 400;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.Face_box_ p {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 28px;
+}
+
+.technic_text {
+    text-align: center;
+    width: 650px;
+    margin: 0 auto;
+}
+.img {
+    background-image: url(./img/n.png);
+    height: 600px;
+    width:  1050px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    margin-bottom: 38px;
+}
+
+.img_people {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+.img_people_img {
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+}
+
+.img_people_img img {
+    width: 100%;
+
+}
+.img_peoples {
+    margin: 5px;
+    width: 200px;
+    margin-bottom: 20px;
+    height: 250px;
+    background-color: rgb(165, 165, 165);
+}
+.img_people_text {
+    text-align: center;
+    background-color: rgb(147, 147, 147);
+    font-size: 15px;
+    height: 63px;
+}
+
+.img_people_text h3 {
+    font-size: 14px;
+}
+
+.qwe {
+    background-color: grey;
+    height: 300px;
+    position: relative;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.qwe .technic_text{
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+}
+
+.qwe img{
+    top: -60%;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+}
